@@ -1,7 +1,7 @@
 apiVersion: networking.k8s.io/v1
 kind: NetworkPolicy
 metadata:
-  creationTimestamp: "2021-02-25T07:15:42Z"
+  creationTimestamp: "2021-03-05T05:53:00Z"
   generation: 1
   managedFields:
   - apiVersion: networking.k8s.io/v1
@@ -13,12 +13,12 @@ metadata:
         f:policyTypes: {}
     manager: HashiCorp
     operation: Update
-    time: "2021-02-25T07:15:42Z"
+    time: "2021-03-05T05:53:00Z"
   name: default-network-policy
-  namespace: iss-test-application10
-  resourceVersion: "15875519"
-  selfLink: /apis/networking.k8s.io/v1/namespaces/iss-test-application10/networkpolicies/default-network-policy
-  uid: 50a07c61-cab0-448c-906d-d17016d55f3e
+  namespace: iss-ftp-nonp
+  resourceVersion: "144385"
+  selfLink: /apis/networking.k8s.io/v1/namespaces/iss-ftp-nonp/networkpolicies/default-network-policy
+  uid: dc6fcce4-d32f-4b22-b347-c92ff5d33144
 spec:
   egress:
   - to:
@@ -62,4 +62,3 @@ spec:
   policyTypes:
   - Ingress
   - Egress
-  
